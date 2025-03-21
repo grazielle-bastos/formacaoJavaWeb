@@ -1,5 +1,7 @@
 package treinoGit.jdev;
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	/*Atributo*/
@@ -8,6 +10,8 @@ public class Pessoa {
 	private String sobrenome;
 	
 	private int idade;
+	
+	private Date dataNascimento;
 
 	public String getNome() {
 		return nome;
@@ -31,6 +35,14 @@ public class Pessoa {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 }

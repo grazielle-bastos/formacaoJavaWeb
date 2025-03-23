@@ -4,7 +4,7 @@ public class OperacaoInt {
 	
 	public static void main(String[] args) {
 		
-		/* Operação entre números inteiros */
+		/* - Operação entre números inteiros */
 		
 		int nota1 = 90;
 		int nota2 = 70;
